@@ -136,11 +136,11 @@ export default function EditInvoiceForm({
               </p>
             ))}
         </fieldset>
-      </div>
-      {state.message && 
+        {state.message && 
         <p id='form-error' className='mt-2 text-sm text-red-500'>
           {state.message}
         </p>}
+      </div>
       <div className="mt-6 flex justify-end gap-4">
         <Link
           href="/dashboard/invoices"
